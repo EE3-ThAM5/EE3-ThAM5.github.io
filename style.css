@@ -143,6 +143,10 @@ nav .social li {
     font-size: 30px;
 }
 
+nav a.active {
+    color: #F7931E !important;
+}
+
 main {
     margin: 0px 15%;
     margin-top: 20px;
