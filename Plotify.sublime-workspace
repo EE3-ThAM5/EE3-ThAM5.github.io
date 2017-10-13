@@ -1,0 +1,1602 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"about",
+				"about_design"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"bord",
+				"border-width"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background-origin"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"c",
+				"capitalize"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"inline",
+				"inline-flex"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"read",
+				"read_more"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"clea",
+				"clearfix"
+			],
+			[
+				"tran",
+				"translateX"
+			],
+			[
+				"tra",
+				"translateX()"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"Co",
+				"Collaborations"
+			],
+			[
+				"background-c",
+				"background-clip"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"BACK",
+				"background-repeat"
+			],
+			[
+				"ont",
+				"font-size"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"Ju",
+				"2017_Judging_Form"
+			],
+			[
+				"App",
+				"Applied_Design"
+			],
+			[
+				"Int",
+				"Gold_Integrated"
+			],
+			[
+				"S",
+				"Silver"
+			],
+			[
+				"Pat",
+				"Part_Collection"
+			],
+			[
+				"Comp",
+				"Composite_Part"
+			],
+			[
+				"Basi",
+				"Basic_Part"
+			],
+			[
+				"Inte",
+				"InterLab"
+			],
+			[
+				"boo",
+				"bootstrap_css"
+			],
+			[
+				"f",
+				"f2f2f2"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"call",
+				"calltime"
+			],
+			[
+				"conversatio",
+				"conversation_id"
+			],
+			[
+				"conve",
+				"conversation_id"
+			],
+			[
+				"conv",
+				"conversation_id"
+			],
+			[
+				"im",
+				"im_per_day"
+			],
+			[
+				"cal",
+				"call_cum"
+			],
+			[
+				"sor",
+				"sortedlist"
+			],
+			[
+				"tot",
+				"total_msg"
+			],
+			[
+				"cv",
+				"csv_file"
+			],
+			[
+				"gra",
+				"love.graphics.clear"
+			],
+			[
+				"new",
+				"love.graphics.newImage"
+			],
+			[
+				"def",
+				"def\tFunction"
+			],
+			[
+				"arg",
+				"arg_dict"
+			],
+			[
+				"beat",
+				"beats_to_notes"
+			],
+			[
+				"is",
+				"is_beat_added"
+			],
+			[
+				"ln",
+				"length"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"string",
+				"strings"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"impo",
+				"important"
+			],
+			[
+				"om",
+				"omgeving"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"frien",
+				"friendlist"
+			],
+			[
+				"Li",
+				"Library"
+			],
+			[
+				"li",
+				"library"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"nam",
+				"name_lbl"
+			],
+			[
+				"Librar",
+				"LibraryItemWidget"
+			],
+			[
+				"lear",
+				"tab_learn"
+			],
+			[
+				"mai",
+				"main_ly"
+			],
+			[
+				"lib",
+				"library"
+			],
+			[
+				"conce",
+				"concept"
+			],
+			[
+				"print",
+				"print_concept"
+			],
+			[
+				"audi",
+				"audioString"
+			],
+			[
+				"wea",
+				"weather_dict"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"toc",
+				"tocOpenWidth"
+			],
+			[
+				"to",
+				"tocOpenWidth"
+			],
+			[
+				"coo",
+				"color-light"
+			],
+			[
+				"color",
+				"color-light"
+			],
+			[
+				"fil",
+				"file_list"
+			],
+			[
+				"root",
+				"root_path"
+			],
+			[
+				"name",
+				"name_match"
+			],
+			[
+				"wave",
+				"waveCoord"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"r",
+				"rotateZ()"
+			],
+			[
+				"fle",
+				"flex-end"
+			],
+			[
+				"team",
+				"team-member"
+			],
+			[
+				"ff",
+				"FF8900"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"backgrou",
+				"background-image"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"FF",
+				"FF8900"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"onm",
+				"onmouseover\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9540,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 3787,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/love.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua/Lua.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Love2D"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				],
+				[
+					"Packages/User/love.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/love.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"htlm",
+				"HTMLPrettify"
+			],
+			[
+				"lo\t",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"l\t",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"matl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lore\t",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"buil",
+				"Build: New Build System"
+			],
+			[
+				"lor\t",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"bea",
+				"HTMLBeautify"
+			],
+			[
+				"bea\t",
+				"HTMLBeautify"
+			],
+			[
+				"Lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"jon",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lor",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"glsl",
+				"Set Syntax: OpenGL SL"
+			],
+			[
+				"cg",
+				"Set Syntax: Cg"
+			],
+			[
+				"hlsl",
+				"Set Syntax: High Level SL"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"instap",
+				"Package Control: Install Package"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"pyth\t",
+				"Set Syntax: Python"
+			],
+			[
+				"prett\t",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"lint htm",
+				"SublimeLinter: Choose Mark Style"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"beat",
+				"HTMLBeautify"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Thomas Van Riel/Documents/WebDev/Plotify"
+	],
+	"file_history":
+	[
+		"/C/Users/Thomas Van Riel/Downloads/favicon.ico",
+		"/C/Users/Thomas Van Riel/Documents/WebDev/Plotify/style_bk.css",
+		"/C/Users/Thomas Van Riel/Documents/WebDev/Plotify/index_bck.html",
+		"/C/Users/Thomas Van Riel/Documents/Programming/PythonTutor/Tutor.py",
+		"/C/Users/Thomas Van Riel/Documents/Programming/PythonTutor/main.py",
+		"/C/Users/Thomas Van Riel/Documents/WebDev/Plotify/index.html",
+		"/C/Users/Thomas Van Riel/Documents/WebDev/Plotify/style.css",
+		"/C/Users/Thomas Van Riel/Documents/DAE/Portfolio/index.html",
+		"/C/Users/Thomas Van Riel/AppData/LocalLow/1337Productions/Pirates Gambit/Parse.settings",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/index.htm",
+		"/C/Users/Thomas Van Riel/source/igem/website/home.html",
+		"/C/Users/Thomas Van Riel/Documents/IIW/3/T2OGPD/03/Weerstation/Weerstation.java",
+		"/C/Users/Thomas Van Riel/Documents/WebDev/Plotify/plotify_black.svg",
+		"/C/Users/Thomas Van Riel/Desktop/plotify.html",
+		"/C/Users/Thomas Van Riel/Documents/WebDev/Plotify/plotify.svg",
+		"/C/Users/Thomas Van Riel/Desktop/style.css",
+		"/C/Users/Thomas Van Riel/Documents/DAE/Portfolio/css/stylesheet.css",
+		"/C/Users/Thomas Van Riel/Documents/WebDev/Home/index.html",
+		"/C/Users/Thomas Van Riel/Desktop/index.html",
+		"/C/Users/Thomas Van Riel/Google Drive/EE3 ThAM5/Concepts.gdoc",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/out.txt",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/out_10-10.txt",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/messages.htm",
+		"/C/Users/Thomas Van Riel/Videos/www.torrenting.com  - Deep.2017.HDRip.XviD.AC3-EVO/Deep.2017.HDRip.XviD.AC3-EVO.nfo",
+		"/C/Users/Thomas Van Riel/Documents/IIW/3/OOP/02/barrelstart/BarrelTest.java",
+		"/C/Users/Thomas Van Riel/Documents/Programming/Networking/Python/send.py",
+		"/C/Users/Thomas Van Riel/Desktop/meenemen",
+		"/C/Users/Thomas Van Riel/Google Drive/EE3 ThAM5/desktop.ini",
+		"/C/Users/Thomas Van Riel/Desktop/audio.html",
+		"/C/Users/Thomas Van Riel/Documents/IIW/3/STAT/Ex02/tutor.m",
+		"/C/Users/Thomas Van Riel/Documents/IIW/3/STAT/Ex02/nonsmokersBMI.txt",
+		"/C/lib/test.css",
+		"/C/Users/Thomas Van Riel/Documents/IIW/3/STAT/Ex02/allPatientsBMI.txt",
+		"/C/Users/Thomas Van Riel/Documents/iGEM/LogoGif.gif",
+		"/C/Users/Thomas Van Riel/Desktop/temp.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/style.css",
+		"/C/Users/Thomas Van Riel/source/igem/website/protocols.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/gold_hp.html",
+		"/C/Users/Thomas Van Riel/Desktop/HPHome.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/purple_hom.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/team.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/template.html",
+		"/C/Users/Thomas Van Riel/Documents/iGEM/Safety Bg 123456.svg",
+		"/C/Users/Thomas Van Riel/source/DAE/game_project2_t3/HexTests/Assets/Shaders/BorderTile.shader",
+		"/C/Users/Thomas Van Riel/source/DAE/game_project2_t3/GP2_Team3/Assets/Scripts/MapGenerator.cs",
+		"/C/Users/Thomas Van Riel/AppData/Local/Temp/lib.cs",
+		"/C/Users/Thomas Van Riel/Google Drive/iGEM 2017 KUL team/Graphics/logos/Logo_HEKcite_black.svg",
+		"/C/Users/Thomas Van Riel/source/igem/website/hp.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/experiments.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/silver.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/notebook.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/script.js",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/jquery.flip.min.script.txt",
+		"/C/Users/Thomas Van Riel/Documents/My Games/FeedTheBeast/TPPI/minecraft/mods/VoxelMods/voxelMap/192.168.0.200.points",
+		"/C/Users/Thomas Van Riel/source/igem/website/Compiler/template.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/test.svg",
+		"/C/Users/Thomas Van Riel/source/igem/website/desc.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/Fork.svg",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/out_8-7.txt",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/merck.svg",
+		"/C/Users/Thomas Van Riel/source/igem/website/notebook.json",
+		"/C/Users/Thomas Van Riel/source/igem/website/Compiler/notebook.py",
+		"/C/Users/Thomas Van Riel/Downloads/Adobe Illustrator CC 2015 19.0.0 (64-Bit) + Crack/ReadMe.txt",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/out_7-24.txt",
+		"/C/Users/Thomas Van Riel/source/igem/website/parts.html",
+		"/C/Users/Thomas Van Riel/Google Drive/iGEM 2017 KUL team/wiki/notebook.json",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/home_p1.svg",
+		"/C/Users/Thomas Van Riel/Desktop/naam.svg",
+		"/C/Users/Thomas Van Riel/Desktop/ai_reverse_path.js",
+		"/C/Users/Thomas Van Riel/Desktop/ai_reverse_path",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/Parser.py",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/parse.py",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/layout.py",
+		"/C/Users/Thomas Van Riel/Downloads/swirl_final.svg",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/logo.svg",
+		"/C/Users/Thomas Van Riel/Desktop/hosts",
+		"/C/Users/Thomas Van Riel/Desktop/test2.html",
+		"/C/Users/Thomas Van Riel/Downloads/swirl.svg",
+		"/C/Users/Thomas Van Riel/Downloads/bracket_left.svg",
+		"/C/Users/Thomas Van Riel/Downloads/right_up_to_left_down_2.svg",
+		"/C/Users/Thomas Van Riel/Downloads/bracket_center.svg",
+		"/C/Users/Thomas Van Riel/Downloads/bracket_right.svg",
+		"/C/Users/Thomas Van Riel/Downloads/lines_only.svg",
+		"/C/Users/Thomas Van Riel/Downloads/lines_only_fill(1).svg",
+		"/C/Users/Thomas Van Riel/Downloads/lines_only_fill.svg",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/skrollr.min.js",
+		"/C/Users/Thomas Van Riel/source/igem/website/collab.html",
+		"/C/Users/Thomas Van Riel/AppData/Local/Temp/Temp1_font-awesome-4.7.0.zip/font-awesome-4.7.0/css/font-awesome.min.css",
+		"/C/Users/Thomas Van Riel/source/igem/website/Compiler/compiler.py",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/bootstrap.min.css",
+		"/C/Users/Thomas Van Riel/source/igem/website/assets/bootstrap.min.js",
+		"/C/Users/Thomas Van Riel/Desktop/test.html",
+		"/C/Users/Thomas Van Riel/source/igem/website/index.html",
+		"/C/Users/Thomas Van Riel/Desktop/igem.html",
+		"/C/Users/Thomas Van Riel/AppData/Local/Temp/minecraft-server.log",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/out_7-6.txt",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/messages_6-14.htm",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/messages_7-6.htm",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/test.py",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/messages_7-6.htm2.htm",
+		"/C/Users/Thomas Van Riel/Documents/IIW/2/ELM/Examen/Oefn/New Text Document.txt",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/kak.json",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/log.json",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/SkypeChatHistory_2.csv",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/data.csv",
+		"/C/Users/Thomas Van Riel/.gnome2/evince/evince_toolbar.xml",
+		"/C/Users/Thomas Van Riel/.gnome2/evince/ev-metadata.xml",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/out_6-14.txt",
+		"/C/Users/Thomas Van Riel/Documents/IIW/2/ELM/Examen/New Text Document.txt",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/fbcap.exe",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/index.html",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/style.css",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeParser/SkypeChatHistory.csv",
+		"/C/Users/Thomas Van Riel/source/pygooglechart/pygooglechart.py",
+		"/C/Users/Thomas Van Riel/Desktop/index - Copy.html",
+		"/C/Users/Thomas Van Riel/Desktop/SkypeChatHistory.csv",
+		"/C/Users/Thomas Van Riel/Desktop/black.html",
+		"/C/Users/Thomas Van Riel/source/vulkan/Tutorial/main.cpp",
+		"/C/Users/Thomas Van Riel/source/wire-desktop/electron/js/config.js",
+		"/C/Users/Thomas Van Riel/AppData/Local/wire/app-2.12.2729/views_resources_200_percent.pak",
+		"/C/Users/Thomas Van Riel/AppData/Roaming/Wire/init.json",
+		"/C/Users/Thomas Van Riel/AppData/Roaming/Wire/Preferences",
+		"/C/Users/Thomas Van Riel/source/DAE/pdev_thomas.van.riel/pdev_clog/pdev_clog/main.cpp",
+		"/C/Users/Thomas Van Riel/Downloads/facebook-thomasvriel/out_6-4.txt",
+		"/C/Users/Thomas Van Riel/Documents/Programming/Love/main.lua",
+		"/C/Users/Thomas Van Riel/Documents/Programming/Love/animatedsprite.lua",
+		"/C/Users/Thomas Van Riel/Documents/Programming/Love/heartsprite.lua"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\Users\\Thomas Van Riel\\Documents\\WebDev\\DoenDesign\\www\\css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<h2 id=\"team_",
+			"id=\"#t",
+			"Conversation with M",
+			"Conversation with",
+			"Conversation with Mélodie Van der Merwe",
+			"Conversation with Thomas Van Riel, Mélodie Van der Merwe",
+			"Conversation with Mélodie Van der Merwe",
+			"Conversation with  Mélodie Van der Merwe",
+			"Mélodie Van der Merwe",
+			"Melodie",
+			"<span class=\"user\">Mélodie Van der Merwe</span>",
+			"gisteren",
+			"Ann De",
+			" - ",
+			"-",
+			"'Lato'",
+			"#experiments",
+			"experiments",
+			"  ",
+			".experiment",
+			"col-sm-1",
+			"col-sm-3",
+			"col-sm-6",
+			"data--100-bottom",
+			"card\" c",
+			"id=\"card\"",
+			"• ",
+			"Betty",
+			"Tom",
+			"h2",
+			"stroke=\"#000000\" stroke-miterlimit=\"10\"",
+			"-sm-6\"><div><img",
+			"/>",
+			"50-bottom=",
+			"-50-bottom",
+			"50-top-bottom",
+			"-100",
+			"--100-botto",
+			"data-100-top=\"opacity:1;\" data-100-top-bottom=\"opacity:0;\"\n\t\t>",
+			"<p>",
+			"none",
+			"0;\"",
+			"stroke-dashoffset:0",
+			"stroke-dashoffset:4000",
+			"data--200-bottom=\"stroke-dashoffset:4000;\" data-top=\"stroke-dashoffset:0;\"",
+			"data-top",
+			"style=\"fill:#888;stroke:#000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:4000;stroke-dashoffset:0\"",
+			"fill:none",
+			"fill:#888",
+			"bottom",
+			"data-top",
+			"path\n\t\t\t\td=",
+			"\n\t\t\t\td=",
+			"</p>",
+			"<p>",
+			"d=",
+			"id=",
+			"</path>",
+			"/>",
+			"This is a very nice text about what happened on this day, what do you think? Leave a comment below, like, share, and subscribe! Thanks!",
+			"/>",
+			"h s",
+			" d=",
+			"d=",
+			"CD3636",
+			"st2",
+			"st1",
+			"/>",
+			"scroll",
+			"skrol",
+			"skrolla",
+			"KU_Leuven-person_placeholder.png",
+			"assets/person_placeholder.png",
+			"person col-md-4",
+			"\"col-md-4\"",
+			"Person",
+			"000000",
+			"//",
+			"{",
+			"dropdown-menu",
+			"\"",
+			"24 april 2017 at 00:05",
+			"24 april 2017",
+			"24 april",
+			"2017-04",
+			"2017-04-",
+			"1032516179",
+			"1032516179@facebook.com",
+			"call",
+			"defaul",
+			"\"call\"",
+			"\", \n            \"author_id\":",
+			"\"content\": \"",
+			"\"1494186244000\": {\n            \"content\": \"",
+			"\"",
+			"64",
+			"81",
+			"fullscr",
+			">>Karolien",
+			">>Ik:",
+			"Thomas",
+			"Karolien",
+			"1032516179",
+			"100001114018024",
+			"100004463400683",
+			"100000094638632",
+			"100008305007441",
+			"100006885038451",
+			"1196574063",
+			"100000869117803",
+			"1032516179",
+			"1161676885",
+			"1672700023",
+			"100001114018024",
+			"100004463400683",
+			"1354435680",
+			"Bert: ",
+			"Thomas",
+			"Bert",
+			"ziekenhuis",
+			"boven het niveau van het team/ above the level of the team \t",
+			"zoals de meeste leden van het team/ similar to most team members \t",
+			"Peer \tPeer ",
+			"zoals de meeste leden van het team/ similar to most team members",
+			"Peer \tPeer",
+			"zoals de meeste leden van het team/ similar to most team members \t",
+			"Peer \tPeer",
+			"boven het niveau van het team/ above the level of the team \t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fff"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7426,
+								7426
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 343,
+								"count": 667,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										7428,
+										7432
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										7404,
+										7408
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_helper.box_height": 20,
+							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.preview_meta":
+							{
+							},
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsl",
+									"hex",
+									"hsla",
+									"webcolors",
+									"rgba",
+									"hex_compressed",
+									"rgb"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".html",
+								"current_syntax": "HTML/HTML",
+								"enabled": true,
+								"last_updated": 1507838482.34,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2064.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1268,
+								1268
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "css"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1269,
+										1270
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1246,
+										1247
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_helper.box_height": 20,
+							"color_helper.color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+							"color_helper.file_palette":
+							[
+								"#222222ff",
+								"#ccccccff",
+								"#ddddddff",
+								"#eeeeeeff",
+								"#f7931eff"
+							],
+							"color_helper.popup_active": false,
+							"color_helper.popup_auto": true,
+							"color_helper.preview_meta":
+							{
+								"1375":
+								[
+									-151950986616309352,
+									7,
+									"hex",
+									82829737440209368,
+									10,
+									"1507844266.19526"
+								],
+								"2424":
+								[
+									-1660080760328111379,
+									4,
+									"hex_compressed",
+									82829737440209368,
+									7,
+									"1507843466.615564"
+								],
+								"3778":
+								[
+									-1660076984927972873,
+									4,
+									"hex_compressed",
+									82829737440209368,
+									13,
+									"1507844746.814308"
+								],
+								"423":
+								[
+									-1660017835136110276,
+									4,
+									"hex_compressed",
+									82829737440209368,
+									11,
+									"1507844742.744377"
+								],
+								"448":
+								[
+									-1660084293797845734,
+									4,
+									"hex_compressed",
+									82829737440209368,
+									12,
+									"1507844742.759949"
+								],
+								"780":
+								[
+									-151950986616309352,
+									7,
+									"hex",
+									82829737440209368,
+									8,
+									"1507843763.051067"
+								]
+							},
+							"color_helper.scan":
+							{
+								"allowed_colors":
+								[
+									"hsl",
+									"hex",
+									"hsla",
+									"webcolors",
+									"rgba",
+									"hex_compressed",
+									"rgb"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".css",
+								"current_syntax": "CSS/CSS",
+								"enabled": true,
+								"last_updated": 1507838482.34,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.declaration-list.css -support.type.property-name.css -comment -string",
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted -constant.character.entity.html",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
+							},
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 863.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 362.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Plotify.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Thomas Van Riel\\Documents\\WebDev\\Home\\home.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

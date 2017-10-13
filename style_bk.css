@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Arapey);
+@import url('https://fonts.googleapis.com/css?family=Abel|Aref+Ruqaa|Fira+Mono|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+:root {
+	--font-serif: 'lato';
+	--font-sans: 'Amatic SC';
+	--font-code: 'Fira Mono';
+	--font-drop-cap: 'Aref Ruqaa';
+	--color-dark: #222;
+	--color-light: #ddd;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+}
+
+* {
+	box-sizing: border-box !important;
+	font-weight: inherit;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+
+a:hover {
+	color: #F7931E;
+}
+
+h1 {
+	font-family: var(--font-sans);
+	margin: 0;
+}
+
+h2 {
+	font-family: var(--font-sans);
+}
+
+p {
+	font-family: var(--font-serif);
+	color: var(--color-dark);
+}
+
+header {
+	height: 50px;
+	background-color: var(--color-dark);
+	flex: none;
+}
+
+header h1 {
+	color: var(--color-light);
+	font-size: 35px;
+	line-height: 50px;
+	font-family: var(--font-sans);
+	padding: 0 10px;
+}
+
+header h1:before {
+	content: '#';
+}
+
+nav	{
+	position: relative;
+	color: var(--color-light);
+}
+
+nav h1 {
+	transform-origin: 100% 0%;
+	transform: rotate(-90deg);
+	text-align: right;
+	right: 50px;
+	position: absolute;
+	line-height: 50px;
+}
+
+nav h2 {
+	font-family: var(--font-sans);
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 20px;
+
+	font-family: var(--font-serif);
+}
+
+ul h2 {
+	font-family: inherit;
+	font-weight: inherit;
+	font-size: 200%;
+	margin: 10px 0;
+	font-family: var(--font-sans);
+
+}
+
+ul li {
+	font-size: 16px;
+}
+
+content, footer {
+	margin: auto;
+	margin-left: 320px;
+	width: calc(100% - 320px);
+	flex-grow: 1;
+	flex: flex-grow;
+	transition: all 0.2s ease;
+}
+
+content > * {
+	display: block;
+	height: 100%;
+}
+
+nav {
+	float: left;
+	width: 320px;
+	margin-left: -320px;
+	background-color: var(--color-dark);
+	padding-right: 50px;
+	padding-top: 10px;
+	position: fixed;
+}
+
+nav h1:hover {
+	cursor: pointer;
+}
+
+nav .social {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 0 50px;
+}
+
+nav .social li {
+	display: block;
+	float: left;
+	padding: 10px;
+	width: 33%;
+	text-align: center;
+	font-size: 30px;
+}
+
+main {
+	margin: 0px 240px;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+main section {
+	padding: 0px 80px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+
+main section:last-child {
+	border-bottom: 0; 
+}
+
+main h1 {
+	font-size: 48px;
+	border-bottom: 1px solid var(--color-dark);
+	margin: 50px 80px;
+}
+
+main h1 .date {
+	display: inline-block;
+	float: right;
+	font-size: 50%;
+	line-height: 32px;
+}
+
+main h2 {
+	font-size: 32px;
+	text-align: right;
+	margin: 0;
+	width: 160px;
+	margin-left: -160px;
+	padding-right: 16px;
+	position: absolute;
+}
+
+main p {
+	font-size: 16px;
+	margin: 0 0 5px 0;
+}
+
+
+main p:first-of-type:first-letter {
+	font-size: 48px;
+	line-height: 48px;
+	float: left;
+	padding-top: 4px;
+	padding-right: 4px;
+}
+
+main h2:hover:before {
+	content: '¶  ';
+}
+
+main section > * {
+	padding-bottom: 10px;
+}
+
+main .image_container {
+	padding: 0;
+	position: relative;
+}
+
+main .image_container *{
+	margin: 0;
+	display: block;
+	float: left;
+	padding: 1px;
+	width: 20%;
+}
+
+footer p{
+	text-align: center;
+	color: #ccc;
+}
+
+
