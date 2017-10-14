@@ -41,7 +41,8 @@ h1 {
     margin: 0;
 }
 
-h2,h3 {
+h2,
+h3 {
     font-family: var(--font-sans);
 }
 
@@ -51,24 +52,31 @@ p {
 }
 
 img {
-	border-radius: 5px;
+    border-radius: 5px;
 }
+
 
 /* NAVBAR */
 
 nav {
     position: relative;
     color: var(--color-light);
-     left: 0;
+    left: 0;
     float: left;
     width: 240px;
     background-color: var(--color-dark);
+
     padding-top: 10px;
     position: fixed;
 }
 
-nav a:hover{
-	border-bottom: 1px solid #F7931E;
+nav a:hover {
+    border-bottom: 1px solid #F7931E;
+}
+
+
+nav>* {
+    padding: 0 20px;
 }
 
 nav h2 {
@@ -93,6 +101,7 @@ nav ul h2 {
 
 nav ul li {
     font-size: 16px;
+    padding: initial;
 }
 
 nav .social {
@@ -111,9 +120,11 @@ nav .social li {
     font-size: 30px;
 }
 
+
 nav a.active {
     color: #F7931E !important;
 }
+
 
 /* CONTENT */
 
@@ -148,13 +159,13 @@ main section:last-child {
 }
 
 img.right {
-	float:right;
-	margin-left: 20px;
+    float: right;
+    margin-left: 20px;
 }
 
 img.left {
-	float:left;
-	margin-right: 20px;
+    float: left;
+    margin-right: 20px;
 }
 
 main section p::after {
@@ -203,7 +214,8 @@ main p {
 }
 
 
-main p:first-of-type:first-letter, .dropcap {
+main p:first-of-type:first-letter,
+.dropcap {
     font-size: 48px;
     line-height: 32px;
     float: left;
@@ -231,6 +243,7 @@ main .image_container>* {
     padding: 1px;
     width: 20%;
 }
+
 main .image_container a img {
     margin: 0;
     padding: 0;
@@ -243,3 +256,51 @@ footer p {
     color: #ccc;
 }
 
+
+@media (max-width: 1020px) {
+    nav {
+        height: 50px !important;
+        width: 100%;
+        padding-top:0;
+        z-index: 10; 
+    }
+    nav>h2 {
+        height: 100%;
+        padding: 1px;
+        margin: 0;
+    }
+    nav>h2 * {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    nav #nav-page {
+        display: none;
+    }
+
+    nav .social {
+        right: 0;
+        width: 100px;
+        padding: 0;
+        height: 100%;
+    }
+
+    nav .social li {
+        padding:0;
+        line-height: 50px;
+    }
+    content,
+footer{
+        padding-left: 0;
+    }
+    main {
+        margin:0;
+        margin-top: 50px; 
+    }
+    section{
+        padding: 0 10px !important;
+    }
+    main h1 {
+    margin: 10px 10px;
+}
+}
