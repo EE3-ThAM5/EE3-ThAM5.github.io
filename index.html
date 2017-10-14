@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Plotify, CNC plotter">
     <meta name="author" content="Thomas Van Riel">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="media/favicon.ico">
     <title>Plotify</title>
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 </head>
 
 <body id="top" data-spy="scroll" data-target="#nav-page">
@@ -18,7 +19,7 @@
         <nav>
             <ul id="nav-page">
                 <li>
-                    <h2><a href="#top"><img src="plotify_white.svg"></a></h2>
+                    <h2><a href="#top"><img src="media/plotify_white.svg"></a></h2>
                     <h2><a href="#about">About</a></h2>
                     <ul>
                         <li><a href="#about_history">History</a></li>
@@ -45,7 +46,7 @@
             </ul>
         </nav>
         <main>
-            <img src="plotify_black.svg" />
+            <img src="media/plotify_black.svg" />
             <div>
                 <h1 id="about">About</h1>
                 <section>
@@ -114,15 +115,11 @@
             <div>
                 <h1 id="media">Media</h1>
                 <section>
-                    <div class="image_container">
-                        <img src="http://via.placeholder.com/150x150">
-                        <img src="http://via.placeholder.com/150x150">
-                        <img src="http://via.placeholder.com/150x150">
-                        <img src="http://via.placeholder.com/150x150">
-                        <img src="http://via.placeholder.com/150x150">
-                        <img src="http://via.placeholder.com/150x150">
-                        <img src="http://via.placeholder.com/150x150">
-                        <img src="http://via.placeholder.com/150x150">
+                    <div class="gallery image_container">
+                        <a href="media/plotify.jpg"><img src="media/plotify.jpg"></a>
+                        <a href="media/plotify2.jpg"><img src="media/plotify2.jpg"></a>
+                        <a href="media/plotify3.jpg"><img src="media/plotify3.jpg"></a>
+                        <a href="media/plotify4.jpg"><img src="media/plotify4.jpg"></a>
                     </div>
                 </section>
             </div>
@@ -131,9 +128,10 @@
     <footer>
         <p>© Thomas Van Riel, 2017</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-    <script src="jquery.waypoints.min.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/jquery.scrollto.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
 
@@ -143,36 +141,54 @@
          */
         $("nav a").click(function(evn) {
             evn.preventDefault();
-            $('html,body').scrollTo(this.hash, this.hash);
+            console.log($($(this).attr('href')));
+            $('html,body').scrollTo($($(this).attr('href')), 400, { offset: -30 });
         });
 
-        // http://imakewebthings.com/waypoints/guides/getting-started/
-        var aChildren = $("#nav-page a");
+        /**
+         * This part handles the highlighting in the menu
+         * Get a list of all links in the navbar and 
+         * assign waypoints to corresponding elements using waypoints.js
+         * http://imakewebthings.com/waypoints/guides/getting-started/
+         */
 
+        // Highlight links linking to id
         function highlight(id) {
-                $("#nav-page a").removeClass('active');
+            // remove .active class from all links
+            $("#nav-page a").removeClass('active');
+            // add .active class to link corresponding with id (i.e. href="#id")
             $("a[href='#" + id + "']").addClass('active');
-            console.log(id);
         }
-        var aWP = [];
-        for (var i = 0; i < aChildren.length; i++) {
-            var aChild = aChildren[i];
-            var ahref = $(aChild).attr('href').replace('#', '');
 
+        // Get jQuery handles to links 
+        var aLinks = $("#nav-page a");
 
+        // iterate link handles
+        for (var i = 0; i < aLinks.length; i++) {
+            // get id of linked element
+            var ahref = $(aLinks[i]).attr('href').replace('#', '');
+
+            // set waypoint object
             var waypoint = new Waypoint({
+                // Select element by id
                 element: document.getElementById(ahref),
+                // define handler, call highlight function to update menu
                 handler: function() {
                     highlight(this.element.id);
-                }
+                },
+                offset: 100
             })
-            aWP.push(waypoint);
-
-
         }
 
-
-
+        $('.gallery').each(function() { // the containers for all your galleries
+            $(this).magnificPopup({
+                delegate: 'a', // the selector for gallery item
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
     });
     </script>
 </body>

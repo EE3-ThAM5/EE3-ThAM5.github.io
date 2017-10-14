@@ -50,31 +50,21 @@ p {
     color: var(--color-dark);
 }
 
-header {
-    height: 50px;
-    background-color: var(--color-dark);
-    flex: none;
-}
-
-header h1 {
-    color: var(--color-light);
-    font-size: 35px;
-    line-height: 50px;
-    font-family: var(--font-sans);
-    padding: 0 10px;
-}
-
-header h1:before {
-    content: '#';
-}
-
 img {
 	border-radius: 5px;
 }
 
+/* NAVBAR */
+
 nav {
     position: relative;
     color: var(--color-light);
+     left: 0;
+    float: left;
+    width: 240px;
+    background-color: var(--color-dark);
+    padding-top: 10px;
+    position: fixed;
 }
 
 nav a:hover{
@@ -85,7 +75,7 @@ nav h2 {
     font-family: var(--font-sans);
 }
 
-ul {
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0 20px;
@@ -93,7 +83,7 @@ ul {
     font-family: var(--font-serif);
 }
 
-ul h2 {
+nav ul h2 {
     font-family: inherit;
     font-weight: inherit;
     font-size: 200%;
@@ -101,31 +91,9 @@ ul h2 {
     font-family: var(--font-sans);
 }
 
-ul li {
+nav ul li {
     font-size: 16px;
 }
-
-content,
-footer {
-    margin: auto;
-    margin-left: 240px;
-    width: calc(100% - 240px);
-}
-
-content>* {
-    display: block;
-    height: 100%;
-}
-
-nav {
-    left: 0;
-    float: left;
-    width: 240px;
-    background-color: var(--color-dark);
-    padding-top: 10px;
-    position: fixed;
-}
-
 
 nav .social {
     position: absolute;
@@ -145,6 +113,20 @@ nav .social li {
 
 nav a.active {
     color: #F7931E !important;
+}
+
+/* CONTENT */
+
+content,
+footer {
+    margin: auto;
+    padding-left: 240px;
+    width: 100%;
+}
+
+content>* {
+    display: block;
+    height: 100%;
 }
 
 main {
@@ -242,13 +224,19 @@ main .image_container {
     position: relative;
 }
 
-main .image_container * {
+main .image_container>* {
     margin: 0;
     display: block;
     float: left;
     padding: 1px;
     width: 20%;
 }
+main .image_container a img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 
 footer p {
     text-align: center;
