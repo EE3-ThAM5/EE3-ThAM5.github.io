@@ -35,7 +35,7 @@
                         <li><a href="#team_nele">Nele</a></li>
                         <li><a href="#team_thomas">Thomas</a></li>
                     </ul>
-                    <h2><a href="#blog">Blog</a></h2>
+                    <h2><a href="#translator">Translator</a></h2>
                     <h2><a href="#media">Media</a></h2>
                 </li>
             </ul>
@@ -91,7 +91,7 @@
                     <h2 id="team_maya">Maya<span>Corstjens</span></h2>
                     <p>
                         <img class="right" src="http://graph.facebook.com/100002524014830/picture?type=large" width="150px" height="150px">
-                        <span class="dropcap">M</span>aya is een meisje.
+                        <span class="dropcap">M</span>aya komt uit liiiimbuuuurg.
                         <br/>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </section>
                 <section>
@@ -105,25 +105,35 @@
                     <h2 id="team_thomas">Thomas<span>Van Riel</span></h2>
                     <p>
                         <img class="right" src="http://graph.facebook.com/100004463400683/picture?type=large" width="150px" height="150px">
-                        <span class="dropcap">T</span>homas is een jongen, hij is niet single. (sorry)
-                        <br/>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <span class="dropcap">T</span>homas heeft een achtergrond als programmeur. Het spreekt voor zich dat hij de leiding nam over de FSM en de programmatie van Plotify. In zijn vrije tijd houdt Thomas zich bezig met saaie dingen zoals Contrabas spelen en rondhangen met zijn vriendin. Thomas is fan van alle muziek, behalve van muziek die hij slecht vindt.<br/>De contrabas van Thomas heet Loebas. Loebas is een ontzettend fijn instrument en apprecieerd het erg wanneer hij bespeeld wordt.<br/>Thomas heeft een zeer grote interesse, en kan het niet laten om over alles bij te leren. Dit heeft tot gevolg dat hij soms tot diep in de nacht op wikipedia zit rond te klikken om te lezen over vannalles en nog wat.</p>
                 </section>
             </div>
             <div>
-                <h1 id="blog">Blog</h1>
+                <h1 id="translator">Translator</h1>
                 <section>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <section id="translator" class="flexbox">
+                        <div class="stretch">
+                            <input id="translator_input" type="text" placeholder="Input..." onkeypress="validate(event)" />
+                        </div>
+                        <div class="normal">
+                            <button onclick="translate();">Translate</button>
+                        </div>
+                    </section>
+                    <section class="flexbox">
+                        <div class="stretch">
+                            <input id="translator_output" type="text" placeholder="" rows="5" readonly />
+                        </div>
+                    </section>
                 </section>
             </div>
             <div>
                 <h1 id="media">Media</h1>
                 <section>
                     <div class="gallery image_container">
-                        <a href="media/plotify.jpg"><img src="media/plotify.jpg"></a>
-                        <a href="media/plotify2.jpg"><img src="media/plotify2.jpg"></a>
-                        <a href="media/plotify3.jpg"><img src="media/plotify3.jpg"></a>
-                        <a href="media/plotify4.jpg"><img src="media/plotify4.jpg"></a>
                         <a href="media/overview.jpg"><img src="media/overview.jpg"></a>
+                        <a href="media/IMG_20171109_105555_small.jpg"><img src="media/IMG_20171109_105555_small.jpg"></a>
+                        <a href="media/IMG_20171109_105605_small.jpg"><img src="media/IMG_20171109_105605_small.jpg"></a>
+                        <a href="media/IMG_20171109_105608_small.jpg"><img src="media/IMG_20171109_105608_small.jpg"></a>
                     </div>
                 </section>
             </div>
@@ -194,6 +204,56 @@
             });
         });
     });
+
+    alphabet = {
+        " ": "purrrrrrrrpd",
+        "A": "uuuuururdrdrllllllllrrrrrrrrddddpurrrrpd",
+        "B": "uuuuuuuurrrrdrdlllllrrrrdrdlllllpurrrrrrrrpd",
+        "C": "purrpduluuuuurrrrrrrlllllldldddddrrrrrrrpurrrrpd",
+        "D": "uuuuuuuurrrrrrdrdddddlllllllrrrrrrpurrrrrrpd",
+        "E": "uuuuuuuurrrrrrrrllllllllddddrrrrllllddddrrrrrrrrpurrrrpd",
+        "F": "uuuuuuuurrrrrrrrllllllllddddrrrrllllddddpurrrrrrrrrrrrpd",
+        "G": "uuuuuuuurrrrrrrrllllllllddddddddrrrrrrrruuuullllrrrrdddd",
+        "H": "uuuuuuuuddddrrrrrrrruuuuddddddddpurrrrpd",
+        "I": "uuuuuuuudddddddd",
+        "J": "rrrrrruruuuuuudddddddlpurrrrrrpd",
+        "K": "uuuuuuuuddddururdldldrdr",
+        "L": "uuuuuuuuddddddddrrrrrrrrpurrrrpd",
+        "M": "uuuuuuuudrdrururddddddddpurrrrpd",
+        "N": "uuuuuuuudrdrdrdruuuuuuuuddddddddpdrrrrpu",
+        "O": "uuuuuuuurrrrrrrrddddddddllllllllrrrrrrrrpurrrrpd",
+        "P": "uuuuuuuurrrrdrdlllllddddpurrrrrrrrpd",
+        "Q": "uuuuuuuurrrrrrrrddddddddllllllllrrrrrrrrululdrdrpurrrrpd",
+        "R": "uuuuuuuurrrrdrdllllldrdrpurrrr",
+        "S": "rrrrrrurulllllulurrrrrrrlllllldldrrrrrdrdlpurrrrrrpd",
+        "T": "purrrrpduuuuuuuullllrrrrrrrrllllddddddddpurrrrrrrrpd",
+        "U": "purrpduluuuuuudddddddrrrrruruuuuuudddddddlpurrrrrrpd",
+        "V": "purrrrpdululuuuudddddrdrururuuuudddddldlpurrrrrrrrpd",
+        "W": "purrpduluuuuuudddddddrurdruruuuuuudddddddlpurrrrrrpd",
+        "X": "ururululdrdrururdldldrdrpurrrrpd",
+        "Y": "ururululdrdrururdldldldlpurrrrrrrrrrrrpd",
+        "Z": "ururururllllllllrrrrrrrrdldldldlrrrrrrrrpurrrrpd"
+    }
+
+    function validate(e) {
+    if (e.keyCode == 13) {
+        translate()
+    }
+}
+
+    function translate() {
+        var input = document.getElementById("translator_input").value.toUpperCase();
+        if (input == "THOMAS IS STOM"){
+            input = "GIJ ZIJT ZELF STOM";
+        }
+        var output = "";
+        for (var i = 0; i < input.length; i++) {
+            if (input.charAt(i) in alphabet) {
+                output += alphabet[input.charAt(i)];
+            }
+        }
+        document.getElementById("translator_output").value = output;
+    }
     </script>
 </body>
 

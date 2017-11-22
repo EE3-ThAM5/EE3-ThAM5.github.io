@@ -56,6 +56,7 @@ img {
 }
 
 
+
 /* NAVBAR */
 
 nav {
@@ -126,6 +127,7 @@ nav a.active {
 }
 
 
+
 /* CONTENT */
 
 content,
@@ -146,7 +148,7 @@ main {
     text-align: justify;
 }
 
-main section {
+main div>section {
     padding: 0px 80px;
     margin-bottom: 50px;
     padding-bottom: 20px;
@@ -258,13 +260,41 @@ footer p {
     color: #ccc;
 }
 
+#translator input,
+#translator button {
+    height: 36px !important;
+    font-family: var(--font-serif);
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox .stretch {
+    flex: 1;
+}
+
+.flexbox .normal {
+    flex: 0;
+    margin: 0 0 0 1rem;
+}
+
+.flexbox div input {
+    padding: .5em 1em;
+    width: 100%;
+}
+
+.flexbox div button {
+    padding: .5em 1em;
+    white-space: nowrap;
+}
 
 @media (max-width: 1020px) {
     nav {
         height: 50px !important;
         width: 100%;
-        padding-top:0;
-        z-index: 10; 
+        padding-top: 0;
+        z-index: 10;
     }
     nav>h2 {
         height: 100%;
@@ -288,21 +318,21 @@ footer p {
     }
 
     nav .social li {
-        padding:0;
+        padding: 0;
         line-height: 50px;
     }
     content,
-footer{
+    footer {
         padding-left: 0;
     }
     main {
-        margin:0;
-        margin-top: 50px; 
+        margin: 0;
+        margin-top: 50px;
     }
-    section{
+    div>section {
         padding: 0 10px !important;
     }
     main h1 {
-    margin: 10px 10px;
-}
+        margin: 10px 10px;
+    }
 }
